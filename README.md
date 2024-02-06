@@ -8,9 +8,9 @@ Tuber starch and steroidal glycoalkaloid (SGA)-related traits have been consiste
 > Scripts and pipelines used in this study are provided herein
 
 - 0_Genome functional annotation
-- 1_Alignment and variant calling
-- 2_Analysis of variation
-- 3_Analysis of deleterious mutations
+- 1_Sequence alignment and variant calling
+- 2_Haplotype-based characterization of allelic variants
+- 3_Identification and analysis of deleterious mutations
 - 4_Analysis of full-length cDNA data
 - 5_Inferrence of conserved or diverged genes
 
