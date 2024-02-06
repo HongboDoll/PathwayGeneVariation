@@ -14,7 +14,7 @@ Tuber starch and steroidal glycoalkaloid (SGA)-related traits have been consiste
 - 4_Analysis of full-length cDNA data
 - 5_Inferrence of conserved or diverged genes
 
-# Citation
+# :heart_eyes: Citation
 
 If you find these codes useful or you are insterested in our paper, or you just like me or Richard, please cite:
 
