@@ -18,6 +18,7 @@ Tuber starch and steroidal glycoalkaloid (SGA)-related traits have been consiste
 # :email: Contact
 
 Hongbo Li (lihongbo_solab@163.com)
+
 Richard Visser (richard.visser@wur.nl)
 
 # :wine_glass: License
