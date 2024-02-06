@@ -1,1 +1,5 @@
+>mapping.sh: map Illumina resequencing reads of the 137 accessions to the starch and SGA gene sequences
 
+>gatk.sh: variant calling, joint genotyping and filtering using GATK
+
+>pop_ana.sh: compute pai, Tajima's D and Fst using the R package "popgenome"
