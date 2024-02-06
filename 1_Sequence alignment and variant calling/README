@@ -1,1 +1,4 @@
+Use work.sh to run the pipeline
 
+NOTE: *_results.xls contain pre-identified genomic coordinates of gene haplotypes on the 6 haplotype-resolved potato genomes.
+This processs starts from BALST alignment followed by intensive manual curation process so no pipeline is available.
