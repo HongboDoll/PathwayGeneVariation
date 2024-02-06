@@ -1,3 +1,8 @@
 You can refer to the codes in "work.sh" to reproduce the results reported in our paper
 
-  NOTE: 
+NOTE: the starch_gene_seqs directory contains the reference gene sequences of the 81 starch genes in the potato DM reference genome
+
+the vcf_genome_coordinates directory contains the final merged allelic variants in VCF format for the 81 starch genes across the 24 haplotypes
+from the 6 autotetraploid potato genomes
+
+I hereby only provide the codes for analyzing the 81 starch genes; the same procedures were also applied for the 38 SGA genes
