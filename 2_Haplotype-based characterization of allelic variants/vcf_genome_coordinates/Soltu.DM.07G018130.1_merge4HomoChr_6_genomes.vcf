@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20210527
+##source=delta2vcf
+##reference=file://media/scratchpad_02/li322/work/01_starch_gene_allelic_variations/2021_3_11_add_starch_gene/starch_gene_seqs/Soltu.DM.07G018130.1_up_down_2k.fa_format.fa
+##contig=<ID=chr07_Soltu.DM.07G018130.1,length=5219>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Coverage Depth, 1 by default">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Number of observations for each allele, 1,2 by default">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count, 1 by default">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations, 40 by default">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count, 2 by default">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations, 40 by default">
+##bcftools_mergeVersion=1.11+htslib-1.11
+##bcftools_mergeCommand=merge -0 --merge all vcf/Soltu.DM.07G018130.1_207_POR06V12.vcf.gz vcf/Soltu.DM.07G018130.1_7_POR06V12.vcf.gz; Date=Thu May 27 11:24:12 2021
+##bcftools_mergeVersion=1.10.2+htslib-1.10.2
+##bcftools_mergeCommand=merge -0 --merge all merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_Altus.vcf.gz merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_Atlantic.vcf.gz merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_Avenger.vcf.gz merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_Colomba.vcf.gz merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_POR06V12.vcf.gz merge_vcf/Soltu.DM.07G018130.1_merge4HomoChr_Spunta.vcf.gz; Date=Wed Jun  2 22:54:00 2021
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Altus_7	Atlantic_207	Avenger_7	Colomba_207	POR06V12_207	POR06V12_7	Spunta_107
+chr07	48659500	.	AAA	A	40	PASS	.	GT	0/0	0/0	0/0	0/0	0/0	1/1	0/0	
+chr07	48659501	.	AA	A	40	PASS	.	GT	1/1	1/1	1/1	1/1	1/1	0/0	1/1	

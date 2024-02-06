@@ -1,0 +1,104 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20210527
+##source=delta2vcf
+##reference=file://media/scratchpad_02/li322/work/01_starch_gene_allelic_variations/2021_3_11_add_starch_gene/starch_gene_seqs/Soltu.DM.07G018140.1_up_down_2k.fa_format.fa
+##contig=<ID=chr07_Soltu.DM.07G018140.1,length=5099>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Coverage Depth, 1 by default">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Number of observations for each allele, 1,2 by default">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count, 1 by default">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations, 40 by default">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count, 2 by default">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations, 40 by default">
+##bcftools_mergeVersion=1.11+htslib-1.11
+##bcftools_mergeCommand=merge -0 --merge all vcf/Soltu.DM.07G018140.1_207_POR06V12.vcf.gz vcf/Soltu.DM.07G018140.1_7_POR06V12.vcf.gz; Date=Thu May 27 11:24:13 2021
+##bcftools_mergeVersion=1.10.2+htslib-1.10.2
+##bcftools_mergeCommand=merge -0 --merge all merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_Altus.vcf.gz merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_Atlantic.vcf.gz merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_Avenger.vcf.gz merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_Colomba.vcf.gz merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_POR06V12.vcf.gz merge_vcf/Soltu.DM.07G018140.1_merge4HomoChr_Spunta.vcf.gz; Date=Wed Jun  2 22:54:00 2021
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Altus_7	Atlantic_207	Avenger_7	Colomba_207	POR06V12_207	POR06V12_7	Spunta_107
+chr07	48674286	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674288	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674303	.	G	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674315	.	AT	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674317	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674318	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674319	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674320	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674325	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674328	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674329	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674395	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674420	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674421	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674437	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674445	.	C	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674469	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674497	.	A	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674501	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674504	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674538	.	G	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674561	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674592	.	G	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674605	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674616	.	C	CAT	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674621	.	CGT	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674625	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674634	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674637	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674638	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674647	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674669	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674671	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674686	.	C	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674698	.	A	AT	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674699	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674700	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674701	.	G	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674702	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674707	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674710	.	G	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674711	.	G	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674777	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674802	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674803	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674819	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674827	.	A	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674851	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674879	.	C	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674883	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674886	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674920	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674943	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674974	.	C	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674987	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48674998	.	CAT	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675005	.	C	CGT	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675007	.	C	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675016	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675019	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675020	.	G	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675029	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675053	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675068	.	G	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675082	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675083	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675084	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675159	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675184	.	A	T	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675185	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48675201	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677560	.	CCCCAAACTTGTTGAAATGAAACA	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677607	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677608	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677617	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677623	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677636	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677642	.	A	AT	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677648	.	GC	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677656	.	G	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677682	.	T	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677691	.	G	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677694	.	A	G	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677696	.	T	A	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677719	.	T	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
+chr07	48677740	.	CCCCAAACTTGTTGAAACGAAACAAAAATGTATCAGCTTGCCCTCCCACCCTTTTCTCATCTCATCCTCATTATTTTTATTTTTTATTTTTTTCTTTTTTCTTATAC	C	40	PASS	.	GT	0/0	0/0	0/0	1/1	0/0	0/0	0/0	
