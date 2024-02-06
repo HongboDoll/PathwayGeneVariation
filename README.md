@@ -16,9 +16,9 @@ Tuber starch and steroidal glycoalkaloid (SGA)-related traits have been consiste
 
 # Citation
 
-If you find these codes useful or you are insterested in our paper, please cite:
+If you find these codes useful or you are insterested in our paper, or you just like me or Richard, please cite:
 
->Li, N., He, Q., Wang, J. et al. Super-pangenome analyses highlight genomic diversity and structural variation across wild and cultivated tomato species. Nat Genet 55, 852–860 (2023). https://doi.org/10.1038/s41588-023-01340-y
+>Hongbo Li, Matthijs Brouwer, Elena Del Pup et al. Allelic variation in the autotetraploid potato: genes involved in starch and steroidal glycoalkaloid metabolism as a case study, 07 November 2023, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-3499669/v1]
 
 
 
