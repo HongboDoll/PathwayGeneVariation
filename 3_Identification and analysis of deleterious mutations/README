@@ -1,1 +1,3 @@
+NOTE: to run SIFT for deleterious mutation identification, you need to build a database for your species
 
+The database I used "sift_DB_DMv6.1_CL" was provided by my colleague
