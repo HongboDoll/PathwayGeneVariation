@@ -18,7 +18,7 @@ Tuber starch and steroidal glycoalkaloid (SGA)-related traits have been consiste
 
 If you find these codes useful or you are insterested in our paper, please cite:
 
->Hongbo Li, Matthijs Brouwer, Elena Del Pup et al. Allelic variation in the autotetraploid potato: genes involved in starch and steroidal glycoalkaloid metabolism as a case study, 07 November 2023, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-3499669/v1]
+>Li, H., Brouwer, M., Pup, E.D. et al. Allelic variation in the autotetraploid potato: genes involved in starch and steroidal glycoalkaloid metabolism as a case study. BMC Genomics 25, 274 (2024). https://doi.org/10.1186/s12864-024-10186-5
 
 
 
